@@ -1,0 +1,71 @@
+
+body{
+    background: linear-gradient(to right,rgb(189, 58, 189),rgb(13, 210, 134)) ;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 35%;
+    background-color: yellow;
+    text-align: center;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+    margin-top: 5%;
+
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+.sucess{
+    background-color: rgb(40, 195, 40);
+    border: 2px;
+    border-radius: 5px;
+    border-color:  rgb(40, 195, 40);
+    margin-left: 2px;
+    cursor: pointer;
+    width: 1.6rem;
+    height: 1.6rem;
+    color: #fff;
+}
+#name{
+    height: 1.5rem;
+    width: 15rem;
+    border: none !important;
+    outline: none;
+}
+.container h1,
+#name{
+    font-family: cursive;
+}
+#user,
+.user-class{
+display: flex;
+}
+.user-class{
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.success{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    margin: 2px;
+    background-color: rgb(11, 221, 11);
+}
+.danger{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    margin: 2px;
+    background-color: rgb(248, 26, 26);
+    color: #fff;
+    border: none;
+}
