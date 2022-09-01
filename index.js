@@ -23,7 +23,7 @@ function Read() {
                     <i class="fas fa-edit"></i>
                 </button>
                 <button class="danger" onclick="Delete(${i})">
-                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-trash-can"></i>
                 </button>
             </div>`
             }
@@ -75,7 +75,7 @@ function Edit(item) {
                 <i class="fas fa-edit"></i>
             </button>
             <button class="danger" onclick="Read(${i})">
-                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
             </button>
     </div>`
         } else {
@@ -91,7 +91,7 @@ function Edit(item) {
                     <i class="fas fa-edit"></i>
                 </button>
                 <button class="danger" onclick="Delete(${i})">
-                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
                 </button>
             </div>`
         }
